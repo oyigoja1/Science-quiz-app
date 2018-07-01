@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:text="@string/choose"
+        android:id="@+id/category_text_view"
+        android:textSize="24sp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:elevation="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttons_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_margin="14dp"
+                        android:background="@drawable/buttons_a"
+                        android:drawableTop="@drawable/csc"
+                        android:elevation="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_horizontal"
+                        android:onClick="compSci"
+                        android:padding="16dp"
+                        android:text="@string/csc"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_margin="14dp"
+                        android:background="@drawable/buttons_a"
+                        android:drawableTop="@drawable/maths"
+                        android:elevation="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_horizontal"
+                        android:onClick="maths"
+                        android:padding="16dp"
+                        android:text="@string/maths"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    tools:context=".Category">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_margin="14dp"
+                        android:background="@drawable/buttons_a"
+                        android:drawableTop="@drawable/chemistry"
+                        android:elevation="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_horizontal"
+                        android:onClick="chemistry"
+                        android:padding="16dp"
+                        android:text="@string/chem"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_margin="14dp"
+                        android:background="@drawable/buttons_a"
+                        android:drawableTop="@drawable/biology"
+                        android:elevation="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center_horizontal"
+                        android:onClick="biology"
+                        android:padding="16dp"
+                        android:text="@string/bio"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/email"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:background="@drawable/button_states"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="14dp"
+                android:layout_marginTop="70dp"
+                android:contentDescription="@string/mail"
+                android:onClick="sendMail"
+                android:padding="15dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

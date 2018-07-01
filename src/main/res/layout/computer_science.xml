@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ComputerScience"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <Button
+        android:text="@string/home_page"
+        android:fontFamily="serif"
+        android:onClick="home"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/button_states"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/cscGroupOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:elevation="10dp">
+
+                <TextView
+                    android:text="@string/csc_one"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_a_one"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/question_one_b"
+                    android:text="@string/csc_b_one"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_c_one"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_d_one"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp">
+
+                <TextView
+                    android:id="@+id/cscGroupTwo"
+                    android:text="@string/csc_two"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/question_two_a"
+                    android:text="@string/csc_a_two"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/question_two_b"
+                    android:text="@string/csc_b_two"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/question_two_c"
+                    android:text="@string/csc_c_two"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/question_two_d"
+                    android:text="@string/csc_d_two"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:elevation="10dp">
+
+                <TextView
+                    android:id="@+id/cscGroupThree"
+                    android:text="@string/csc_three"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/question_three_a"
+                    android:text="@string/csc_a_three"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/question_three_b"
+                    android:text="@string/csc_b_three"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/question_three_c"
+                    android:text="@string/csc_c_three"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/question_three_d"
+                    android:text="@string/csc_d_three"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/cscGroupFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp">
+
+                <TextView
+                    android:text="@string/csc_four"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_a_four"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/question_four_b"
+                    android:text="@string/csc_b_four"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_c_four"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_d_four"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/cscGroupFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp">
+
+                <TextView
+                    android:text="@string/csc_five"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_a_five"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/question_five_b"
+                    android:text="@string/csc_b_five"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_c_five"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_d_five"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/cscGroupSix"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp">
+
+                <TextView
+                    android:text="@string/csc_six"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_a_six"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/question_six_b"
+                    android:text="@string/csc_b_six"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_c_six"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_d_six"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/cscGroupSeven"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp">
+
+                <TextView
+                    android:text="@string/csc_seven"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_a_seven"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/question_seven_b"
+                    android:text="@string/csc_b_seven"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_c_seven"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_d_seven"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/cscGroupEight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp">
+
+                <TextView
+                    android:text="@string/csc_eight"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_a_eight"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/question_eight_b"
+                    android:text="@string/csc_b_eight"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_c_eight"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_d_eight"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"
+                android:background="@drawable/buttons_a"
+                android:elevation="10dp">
+
+                <TextView
+                    android:text="@string/csc_nine"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/csc_answer_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:inputType="text"
+                    tools:ignore="LabelFor" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/cscGroupTen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp">
+
+                <TextView
+                    android:text="@string/csc_ten"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="8dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_a_ten"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_b_ten"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="@string/csc_c_ten"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/question_ten_d"
+                    android:text="@string/csc_d_ten"
+                    android:padding="10dp"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_states"
+                android:fontFamily="serif"
+                android:text="@string/submit"
+                android:textColor="@android:color/white"
+                android:onClick="submitAnswers"
+                android:textSize="22sp" />
+
+            <Button
+                android:onClick="resetQuiz"
+                android:text="@string/play_again"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="serif"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/score_text_view"
+                android:text="@string/score_answer"
+                android:fontFamily="serif"
+                android:background="@drawable/buttons_a"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
