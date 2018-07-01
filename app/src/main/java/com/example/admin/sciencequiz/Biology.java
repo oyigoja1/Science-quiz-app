@@ -1,7 +1,6 @@
 package com.example.admin.sciencequiz;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -51,8 +50,7 @@ public class Biology extends AppCompatActivity {
     }
 
     public void home(View view) {
-        Intent homePage = new Intent(this, Category.class);
-        startActivity(homePage);
+        finish();
     }
 
     public void submitAnswers(View view) {
